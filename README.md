@@ -1,21 +1,22 @@
-# lottery
+# generator
 
-> webapp
+> html5-es6
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# install server 使用express脚手架构建
+cd server/
+express -e .
+cd server/ && npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 初始化项目 在项目根目录构建
+npm install 
 
-# build for production with minification
-npm run build
+# 开始构建 打包
+gulp
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# serve with hot reload at localhost:3000
+gulp --watch
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
