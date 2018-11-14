@@ -8,7 +8,7 @@
 # install server 使用express脚手架构建
 cd server/
 express -e .
-cd server/ && npm install
+npm install
 
 # 初始化项目 在项目根目录构建
 npm install 
